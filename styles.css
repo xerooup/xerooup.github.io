@@ -107,8 +107,8 @@ body {
 }
 
 .tree a:hover {
-  background: rgba(76,255,76,.08);
-  color: var(--accent);
+  background: var(--selection);
+  border-left: 2px solid var(--green);
 }
 
 .terminal {
@@ -146,7 +146,10 @@ body {
 .hint {
   color: var(--green-dim);
   font-size: 14px;
-  margin-top: 32px;
+  margin-top: 20px;
+  padding: 10px;
+  border-left: 3px solid var(--green-dim);
+  background: rgba(163, 122, 47, 0.05);
 }
 
 @media (max-width: 900px) {
