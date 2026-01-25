@@ -58,7 +58,7 @@ body {
   margin: 6vh auto;
   border: 2px solid var(--border);
   background: var(--panel);
-  box-shadow: 0 0 40px rgba(76,255,76,.15);
+  box-shadow: 0 0 40px rgba(255, 166, 76, 0.15);
   display: grid;
   grid-template-rows: auto 1fr;
 }
